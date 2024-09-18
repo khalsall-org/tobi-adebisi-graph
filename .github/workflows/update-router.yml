@@ -8,7 +8,7 @@ on:
   workflow_call:
 
 env:
-  GEN: ${{ secrets.GEN || 'ws1' }}
+  GEN: ${{ 'ws1' }}
 
 jobs:
   deploy:
